@@ -1,10 +1,11 @@
 
 .test-button{
     height: 36px;
-    width: 50px;
+    width: 65px;
 
     background-color: blue;
     color: white;
 
     border: none;
+    border-radius: 18px;
 }
