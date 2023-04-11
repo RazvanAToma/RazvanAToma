@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @RazvanAToma
 - 👀 I’m interested in cars and IT
-- 🌱 I’m currently learning Python
+- 🌱 I’m currently looking into a variety of programming languages
 - 💞️ I’m looking to collaborate on nothing atm
 
 <!---
