@@ -1,4 +1,10 @@
 
 .test-button{
+    height: 36px;
+    width: 50px;
+
     background-color: blue;
+    color: white;
+
+    border: none;
 }
