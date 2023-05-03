@@ -1,0 +1,76 @@
+
+p {
+    /* Font */
+    font-family: arial;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.video-title {
+    /* Font */
+    font-weight: bold;
+    font-size: 18px;
+    
+    
+    /* Spacing */
+    width: 300px;
+    line-height: 24px;
+    margin-bottom: 5px;
+}
+
+.video-stats {
+    /* Font */
+    font-size: 14px;
+    
+    /* Color */
+    color: rgb(96, 96, 96);
+    
+    /* Spacing */
+    margin-bottom: 20px;
+}
+
+.video-author {
+    /* Font */
+    font-size: 14px;
+    
+    /* Color */
+    color: rgb(96, 96, 96);
+    
+    /* Spacing */
+    margin-bottom: 20px;
+}
+
+.video-description {
+    /* Font */
+    font-size: 14px;
+    
+    /* Color */
+    color: rgb(96, 96, 96);
+    
+    /* Spacing */
+    width: 280px;
+    line-height: 22px;
+    margin-bottom: 100px;
+}
+
+.apple-text {
+    /* Font */
+    font-size: 14px;
+    
+    /* Spacing */
+    margin-bottom: 50px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+    /* Color */
+    background-color: rgb(227, 65, 64);
+    color: white;
+    
+}
+
+.span-shop-link:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
