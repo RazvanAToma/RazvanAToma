@@ -1,0 +1,14 @@
+p {
+    font-family: Arial;
+    text-align: center;
+}
+
+.title {
+    /* Font */
+    font-weight: bold;
+    font-size: 27px;
+}
+
+.span-learn-more-link {
+    color: rgb(4, 0, 255);
+}

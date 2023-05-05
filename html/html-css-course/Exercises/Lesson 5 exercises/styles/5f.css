@@ -1,0 +1,38 @@
+p {
+    font-family: Arial;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.span-price {
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+}
+
+.span-currency {
+    font-size: 10px;
+    color: rgb(104, 104, 104);
+    margin-left: 6px;
+}
+
+.increase-decrease-text {
+    font-size: 10px;
+    color: rgb(69, 134, 71);
+
+    margin-top: 7px;
+}
+
+.text-1 {
+    margin-top: 7px;
+}
+.span-text {
+    font-size: 10px;
+    color: rgb(101, 101, 101);    
+}
+
+.span-percent {
+    font-size: 10px;
+    color: rgb(188, 54, 68);
+
+}

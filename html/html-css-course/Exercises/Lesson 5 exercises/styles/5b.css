@@ -1,0 +1,25 @@
+p {
+    font-family: Arial;
+}
+
+.text {
+    /* Font */
+    font-weight: bold;
+
+    /* Spacing */
+    margin-bottom: 0px;
+}
+
+
+.text-2 {
+    margin-top: 4px;
+}
+
+.span-sales-end-day {
+    /* Font */
+    font-weight: bold;
+    font-style: italic;
+
+    /* Color */
+    color: red;
+}
