@@ -1,3 +1,3 @@
 cd desktop
 
-python open_youtube.txt
+python open_youtube.py
