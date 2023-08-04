@@ -2,21 +2,27 @@ import os
 import webbrowser
 import time
 import pyautogui as pyg
-from mouse_control import add_song_to_list
+from mouse_control import add_song_to_playlist
 
-song_name = input("What song do you want to add to your playlist?\n")
+keep_going = "y"
 
-artist_name = input("\nWho is the song by?\n")
+while keep_going == "y":
+    song_name = input("What song do you want to add to your playlist?\n")
 
-song = song_name + " " + artist_name
+    artist_name = input("\nWho is the song by?\n")
 
-url = "https://music.youtube.com/search?q=" + song
+    song = song_name + " " + artist_name
 
-def add_to_playlist():
-    webbrowser.open(url)
-    time.sleep(3)
-    add_song_to_list()
-    pyg.hotkey("ctrl", "w")
+    url = "https://music.youtube.com/search?q=" + song
 
-add_to_playlist()
+    
+    def add_to_playlist():
+        webbrowser.open(url)
+        time.sleep(3)
+        add_song_to_playlist()
+        pyg.hotkey("ctrl", "w")
+
+    add_to_playlist()
+
+    keep_going = input("Do you want to add another song? (y/n)\n")
 
