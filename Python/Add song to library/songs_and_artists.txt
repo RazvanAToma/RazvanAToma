@@ -1,4 +1,0 @@
-song: -1087, 295
-three dots: -1002, 287
-save to playlist button: -914, 540
-playlist: -966, 489
