@@ -22,5 +22,3 @@ print(y)
 
 L = [0, 1]
 L.append(5)
-
-L
