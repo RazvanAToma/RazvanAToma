@@ -13,15 +13,15 @@ while True:
             print(f"Found the directory at: {directory_path}")
             shutil.rmtree(directory_path)
             print("Dir deleted")
-            print("Waiting for 15 minutes")
-            time.sleep(10)
+            print("Waiting")
+            time.sleep(120)
             break
         
         # Check if 60 seconds have passed, and break the loop if so
         elapsed_time = time.time() - start_time
         if elapsed_time >= 15:
             print("Target directory not found within 15 seconds.")
-            print("Waiting for 15 minutes")
-            time.sleep(10)
+            print("Waiting")
+            time.sleep(120)
             start_time = time.time()  # Record the start time
             break
