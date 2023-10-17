@@ -18,7 +18,7 @@ while keep_going == "y":
     
     def add_to_playlist():
         webbrowser.open(url)
-        time.sleep(3)
+        time.sleep(5)
         add_song_to_playlist()
         pyg.hotkey("ctrl", "w")
 
