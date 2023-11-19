@@ -1,0 +1,7 @@
+{
+"cheese" = {
+    "caloriesPr100g" = 250,
+    "proteinPr 100g" = 15,
+}
+
+}
